@@ -4,7 +4,7 @@ This is the official implementation of  ["A Sliced Wasserstein Loss for Neural T
 
 ![caption paper](https://unity-grenoble.github.io/website/images/thumbnails/publication_sliced_wasserstein_loss.png)
 
-This implementation focus on the key part of the paper: the sliced wasserstein loss for texture synthesis.
+This implementation focuses on the key part of the paper: the sliced wasserstein loss for texture synthesis.
 
 ## Requirements
 
@@ -46,8 +46,8 @@ python texturegen.py [-h] [--size SIZE] [--output OUTPUT] [--iters ITERS] filena
 
 The parameters are:
 
-- iters: number of steps of l-bfgs (by default: 20). Each step is one call to scipy l-bfgs with maxfun=64.
-- size: the input texture will be resized to this size (by default: 256, which resize to 256x256). If the image is not a square, it will be center cropped. The generated texture will have the same resolution.
+- iters: number of calls to l-bfgs (by default: 20). Each step is one call to scipy's l-bfgs implementation with maxfun=64.
+- size: the input texture will be resized to this size (by default: 256, which resizes to 256x256). If the image is not square, it will be center-cropped. The generated texture will have the same resolution.
 - output: name of the output file (by default: output.jpg).
 - filename: name of the input texture (only mandatory parameter).
 
@@ -66,7 +66,7 @@ python texturegen.py input.jpg
 
 ## Timing
 
-Timing reference for 20 iterations on 256x256 resolution (which is overkill as good results appear earlier):
+Timing reference for 20 iterations (which is overkill as good results appear earlier) on 256x256 resolution:
 
 - On GPU (NVIDIA GTX 1080 Ti): 3min58.
 - On CPU (intel i5-8600k CPU): 37min33.
