@@ -4,6 +4,17 @@ This is the official implementation of  ["A Sliced Wasserstein Loss for Neural T
 
 ![caption paper](https://unity-grenoble.github.io/website/images/thumbnails/publication_sliced_wasserstein_loss.png)
 
+If you use this work, please cite our paper
+```Bibtex
+@InProceedings{Heitz_2021_CVPR,
+author = {Heitz, Eric and Vanhoey, Kenneth and Chambon, Thomas and Belcour, Laurent},
+title = {A Sliced Wasserstein Loss for Neural Texture Synthesis},
+booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {June},
+year = {2021}
+}
+```
+
 This implementation focuses on the key part of the paper: the sliced wasserstein loss for texture synthesis.
 
 ## Requirements
