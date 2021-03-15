@@ -36,7 +36,7 @@ It has been modified compared to the keras standard model:
 - max pooling layers are replaced with average pooling layers.
 - zero padding is remplaced with reflect padding.
 
-## Texture generation (section 3 of the paper)
+## Texture generation
 
 To generate a texture use the following command:
 
