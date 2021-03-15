@@ -4,7 +4,7 @@ This is the official implementation of  ["A Sliced Wasserstein Loss for Neural T
 
 ![caption paper](https://unity-grenoble.github.io/website/images/thumbnails/publication_sliced_wasserstein_loss.png)
 
-This implementation focus on the key part of the paper: the sliced wasserstein loss.
+This implementation focus on the key part of the paper: the sliced wasserstein loss for texture synthesis.
 
 ## Requirements
 
@@ -36,7 +36,7 @@ It has been modified compared to the keras standard model:
 - max pooling layers are replaced with average pooling layers.
 - zero padding is remplaced with reflect padding.
 
-## Texture generation (section 3 of the paper)
+## Texture generation
 
 To generate a texture use the following command:
 
