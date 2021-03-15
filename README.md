@@ -4,7 +4,7 @@ This is the official implementation of  ["A Sliced Wasserstein Loss for Neural T
 
 ![caption paper](https://unity-grenoble.github.io/website/images/thumbnails/publication_sliced_wasserstein_loss.png)
 
-This implementation focus on the key part of the paper: the sliced wasserstein loss.
+This implementation focus on the key part of the paper: the sliced wasserstein loss for texture synthesis.
 
 ## Requirements
 
