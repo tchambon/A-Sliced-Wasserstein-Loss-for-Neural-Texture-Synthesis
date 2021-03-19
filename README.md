@@ -36,6 +36,7 @@ pip install -r requirements.txt
 ```
 
 This code has been tested with Python 3.7.5 on Ubuntu 18.04.
+We recommend setting up a dedicated Conda environment using Python 3.7.
 
 ### Pretrained vgg-19 network
 
