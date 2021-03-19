@@ -24,7 +24,7 @@ This implementation focuses on the key part of the paper: the sliced wasserstein
 The following libraries are required:
 
 - Tensorflow 2
-- scipy
+- SciPy
 - Matplotlib
 - Numpy
 
