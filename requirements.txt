@@ -1,5 +1,0 @@
-matplotlib==3.2.1
-numpy==1.18.5
-scipy==1.4.1
-tensorflow-gpu==2.2.0
-Pillow==7.1.2
