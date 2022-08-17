@@ -18,7 +18,7 @@ SCALING_FACTOR = 1
 #######################################################################
 # Load example texture 
 #######################################################################
-FILE_PATH = './style.jpg'
+FILE_PATH = './input.png'
 
 
 def saveImage(filename, image):
