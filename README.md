@@ -2,7 +2,12 @@
 
 This is the official implementation of  ["A Sliced Wasserstein Loss for Neural Texture Synthesis" paper](https://arxiv.org/abs/2006.07229) (CVPR 2021).
 
-![caption paper](https://unity-grenoble.github.io/website/images/thumbnails/publication_sliced_wasserstein_loss.png)
+
+| Input              |  Output (SCALING_FACTOR=2) |
+:-------------------------:|:-------------------------:
+![Input](input.png)  |  ![Output](output.png)
+
+
 
 If you use this work, please cite our paper
 ```Bibtex
@@ -64,14 +69,3 @@ Timing reference for 10 iterations on 256x256 resolution:
 
 - NVIDIA Titan RTX: 1min05.
 
-## Example of synthesis
-
-This is an example of texture synthesis with SCALING_FACTOR=2:
-
-- Input:
-
-![Input](input.png)
-
-- Output: 
-
-![Output](output.png)
