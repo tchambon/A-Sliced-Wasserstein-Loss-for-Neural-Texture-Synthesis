@@ -63,3 +63,15 @@ Outputs files are:
 Timing reference for 10 iterations on 256x256 resolution:
 
 - NVIDIA Titan RTX: 1min05.
+
+## Example of synthesis
+
+This is an example of texture synthesis with SCALING_FACTOR=2:
+
+- Input:
+
+![Input](input.png)
+
+- Output: 
+
+![Output](output.png)
